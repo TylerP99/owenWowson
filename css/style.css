@@ -1,0 +1,39 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body, main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+#wow {
+  border-radius: 50%;
+  background: rgba(255, 0, 0, 1);
+
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+
+  height: 800px;
+  width: 800px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
